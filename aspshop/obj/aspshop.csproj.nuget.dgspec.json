@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\std\\Source\\Repos\\aspshop\\aspshop\\aspshop.csproj": {}
+    "C:\\Users\\std.LAB\\Source\\Repos\\aspshop\\aspshop\\aspshop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\std\\Source\\Repos\\aspshop\\aspshop\\aspshop.csproj": {
+    "C:\\Users\\std.LAB\\Source\\Repos\\aspshop\\aspshop\\aspshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\std\\Source\\Repos\\aspshop\\aspshop\\aspshop.csproj",
+        "projectUniqueName": "C:\\Users\\std.LAB\\Source\\Repos\\aspshop\\aspshop\\aspshop.csproj",
         "projectName": "aspshop",
-        "projectPath": "C:\\Users\\std\\Source\\Repos\\aspshop\\aspshop\\aspshop.csproj",
-        "packagesPath": "C:\\Users\\std\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\std\\Source\\Repos\\aspshop\\aspshop\\obj\\",
+        "projectPath": "C:\\Users\\std.LAB\\Source\\Repos\\aspshop\\aspshop\\aspshop.csproj",
+        "packagesPath": "C:\\Users\\std.LAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\std.LAB\\Source\\Repos\\aspshop\\aspshop\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\std\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\std.LAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +57,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.20, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Core": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -74,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

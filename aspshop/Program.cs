@@ -1,3 +1,6 @@
+using aspshop.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace aspshop
 {
     public class Program
@@ -8,8 +11,10 @@ namespace aspshop
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddDbContext<shopDbContext>(options =>
+           options.UseSqlServer(builder.Configuration.GetConnectionString("Addcon")));
             var app = builder.Build();
+           
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -28,7 +33,7 @@ namespace aspshop
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Dashboard}/{action=Dashboard}/{id?}");
 
             app.Run();
         }
